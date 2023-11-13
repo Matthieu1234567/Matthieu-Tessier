@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Networks Creator</title>
+        <link rel="stylesheet" href="page.css">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="https://www.um.edu.mt/">
+            L-Università ta'Malta
+            </a>
+            <a href="https://eseo.fr">
+            ESEO Angers
+            </a>
+        </header>
+        <main>
+            <h1 class="title">Networks Creator</h1>
+            <div class="code-container">
+                <textarea id="code" class="code-input" rows="10" cols="80"></textarea>
+                <div class="button-container">
+                    <button id="runButton" class="button">Run</button>
+                    <button id="nextButton" class="button">Next</button>
+                    <button id="showButton" class="button red">Show</button>
+                </div>
+            </div>
+            <div class="networks-rules-script-container">
+                <div class="graph-container-1" id="processes-container">
+                    <p style="text-align: center;">Networks</p>
+                        <!-- Networks will be displayed here -->
+                </div>
+                <div class="vertical-bar"></div>
+                <div class="graph-container-2" id="rules-container">
+                    <p style="text-align: center;">Rules</p>
+                    <!-- Rules will be displayed here  -->
+                </div>
+                <div class="vertical-bar"></div>
+                <div class="graph-container-3" id="script-container">
+                    <p style="text-align: center;">Script</p>
+                    <div class="formatted-json" id="formatted-json" style="display: none;">
+                        <!-- Code parts will be displayed here  -->
+                    </div>              
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a>
+                Projet - L-Università ta'Malta - Matthieu TESSIER
+            </a> 
+        </footer>      
+    </body>
+    <script src="page.js"></script>
+</html>

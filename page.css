@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000; 
+    padding: 3px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+main {
+    padding: 1.5rem; 
+    border-radius: 1%;
+    background: linear-gradient(to bottom, #7ccb45, #3e88aa); 
+    flex-grow: 1; 
+    margin: 1%;
+}
+
+footer {
+    border-top: 1px solid #000; 
+    margin-top: auto; 
+    text-align: center;
+    padding: 3px;
+}
+
+.title {
+    color: #faf089;
+    text-align: center; 
+}
+
+.code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.code-input { 
+    width: 500px;
+    height: 200px;
+    margin: 10px 10px 0;
+    background-color: rgba(255, 255, 255, 0.332);
+    color: #000000;
+    border: none;
+    resize: none; 
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 15px;
+}
+
+.button { /* or #runButton */
+    background-color: #d3c959;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.green {
+    background-color: #a2d6ab;
+    color: white;
+}
+
+.red {
+    background-color: #e57373;
+    color: white;
+}
+
+.button:hover {
+    background-color: #665c63;
+}
+
+.networks-rules-script-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.graph-container-1, .graph-container-3 {
+    width: 400px;
+    height: 400px;
+}
+
+.graph-container-2 {
+    text-align: center;
+    width: 100px;
+}
+
+#arrowhead {
+    fill: #ff0000; 
+}
+
+.formatted-json {
+    width: 350px;
+    height: 350px;  
+    background-color: rgba(255, 255, 255, 0.319);
+    border: 1px solid rgba(255, 255, 255, 0.319);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    overflow-y: auto; 
+}
+
+.vertical-bar {
+    width: 3px; 
+    max-height: min-content; 
+    background-color: #ffffff; 
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.p {
+    text-align: center;
+}
+
+.highlighted {
+    background-color: yellow;
+  }
+  
